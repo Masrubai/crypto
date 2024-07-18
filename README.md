@@ -14,6 +14,8 @@ Requirement Operating System
 ## Create crontab system
 ```sh
 crontab -e
+
+## Paste this shell script & CRTL + X -> Y
 ```sh
 @reboot bash /root/helminer/run_miner.sh > /root/helminer/run_miner.log 2>&1
 
