@@ -1,0 +1,2 @@
+# crypto
+Mining Crypto
