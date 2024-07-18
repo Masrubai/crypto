@@ -12,7 +12,9 @@ Requirement Operating System
 
 
 ## Create crontab system
+```sh
 crontab -e
+```sh
 @reboot bash /root/helminer/run_miner.sh > /root/helminer/run_miner.log 2>&1
 
 ## Manual instalation steps
