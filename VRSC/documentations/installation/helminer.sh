@@ -1,15 +1,14 @@
 #!/bin/bash
+# Cryto mining with multiple processing units
+# dependency install software
 
 sudo apt update
 sudo apt install git libsodium-dev -y
 
-# Membuat folder helminer
-mkdir helminer
+# create helminer & login into helminer directory
+mkdir helminer && cd helminer
 
-# Masuk ke folder helminer
-cd helminer
-
-# Clone link dari github
+# Clone miner from github repository
 wget https://github.com/hellcatz/hminer/releases/download/v0.59.1/hellminer_linux64_avx2.tar.gz
 
 # Tunggu proses selesai dan ekstrak file tar.gz
