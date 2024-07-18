@@ -10,11 +10,12 @@ Requirement Operating System
 - ccminer v.3.8.3a
 - Verushash2.2
 
-```sh
+
 ## Create crontab system
 crontab -e
 @reboot bash /root/helminer/run_miner.sh > /root/helminer/run_miner.log 2>&1
 
 ## Manual instalation steps
+```sh
 wget -L https://raw.githubusercontent.com/Masrubai/crypto/main/VRSC/documentations/installation/helminer.sh
 
