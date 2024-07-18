@@ -20,7 +20,7 @@ mv ccminer-verus-3.8.3a-CPU/ ccminer
 chmod +x ccminer
 cd ccminer
 ./build.sh
- cd ccminer/
+cd ccminer/
 nano run
 ./ccminer -a verus -o stratum+tcp://pool.verus.io:9999 -u RKdmLwRbR7riY543AhgdtgffsYqPFnMaZfyeR.NameWorker -p x -t 2
 ctrl +x -> y
