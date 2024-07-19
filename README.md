@@ -21,8 +21,12 @@ crontab -e
 @reboot bash /root/helminer/run_miner.sh > /root/helminer/run_miner.log 2>&1
 ```
 
-## Auto instalation steps, save & runing worker
+## Auto instalation steps, save & runing worker helminer
 ```sh
 wget -O - https://raw.githubusercontent.com/Masrubai/crypto/main/VRSC/documentations/installation/helminer.sh | bash
 ```
 
+## Auto instalation steps, save & runing worker ccminer
+```sh
+wget -O - https://raw.githubusercontent.com/Masrubai/crypto/main/VRSC/documentations/installation/ccminer.sh
+```
