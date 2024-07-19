@@ -14,6 +14,7 @@ wget https://github.com/Oink70/ccminer-verus/archive/refs/tags/v3.8.3a-CPU.tar.g
 # Waiting procces done & extract file tar.gz
 if [ $? -eq 0 ]; then
   tar -xzvf v3.8.3a-CPU.tar.gz
+  cd ccminer-verus-3.8.3a-CPU
   chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh
   ./build.sh
   if [ $? -eq 0 ]; then
