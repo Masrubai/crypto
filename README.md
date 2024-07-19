@@ -21,12 +21,12 @@ Paste this shell script & CRTL + X -> Y
 @reboot bash /root/helminer/run_miner.sh > /root/helminer/run_miner.log 2>&1
 ```
 
-Auto instalation steps, save & runing worker helminer
+Auto instalation steps, save & runing worker with helminer
 ```sh
 wget -O - https://raw.githubusercontent.com/Masrubai/crypto/main/VRSC/documentations/installation/helminer.sh | bash
 ```
 
-Auto instalation steps, save & runing worker ccminer
+Auto instalation steps, save & runing worker with ccminer
 ```sh
 wget -O - https://raw.githubusercontent.com/Masrubai/crypto/main/VRSC/documentations/installation/ccminer.sh
 ```
