@@ -25,7 +25,7 @@ if [ $? -eq 0 ]; then
     chmod +x run
     nohup ./run >/root/ccminer/ccminer-verus-3.8.3a-CPU/output.log 2>&1 &
     
-    # Konfirmasi tugas selesai
+    # Konfirmasi jobs success
     echo "Jobs Success, the script has been successfully executed."
   else
     echo "Fail extract file tar.gz"
