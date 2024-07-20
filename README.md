@@ -1,4 +1,5 @@
 # Crypto mining with linux central processing unit
+This source is not for sale, but I made it because of my hobby with new technology
 
 Requirement Hardware
 - Ram 1GB minimal
