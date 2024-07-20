@@ -35,3 +35,9 @@ Auto instalation steps, save & runing worker with ccminer
 ```sh
 wget -O - https://raw.githubusercontent.com/Masrubai/crypto/main/VRSC/documentations/installation/ccminer.sh | bash
 ```
+
+Cek logs and login to directory ccminer
+```sh
+cd ccminer/ccminer-verus-3.8.3a-CPU/
+tail -f output.log
+```
