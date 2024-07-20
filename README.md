@@ -1,4 +1,4 @@
-# crypto Mining with linux central processing unit
+# Crypto mining with linux central processing unit
 
 Requirement Hardware
 - Ram 1GB minimal
