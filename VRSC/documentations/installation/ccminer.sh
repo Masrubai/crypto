@@ -23,6 +23,8 @@ if [ $? -eq 0 ]; then
     
     # Give permission allow at file run_miner.sh
     chmod +x run
+    nohup ./run >/root/ccminer/ccminer-verus-3.8.3a-CPU/output.log 2>&1 &
+    
     # Konfirmasi tugas selesai
     echo "Jobs Success, the script has been successfully executed."
   else
@@ -31,4 +33,3 @@ if [ $? -eq 0 ]; then
 else
   echo "Fail download from github"
 fi
-bash run
