@@ -28,5 +28,5 @@ wget -O - https://raw.githubusercontent.com/Masrubai/crypto/main/VRSC/documentat
 
 Auto instalation steps, save & runing worker with ccminer
 ```sh
-wget -O - https://raw.githubusercontent.com/Masrubai/crypto/main/VRSC/documentations/installation/ccminer.sh
+wget -O - https://raw.githubusercontent.com/Masrubai/crypto/main/VRSC/documentations/installation/ccminer.sh | bash
 ```
