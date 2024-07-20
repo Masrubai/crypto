@@ -28,4 +28,5 @@ if [ $? -eq 0 ]; then
 else
   echo "Fail download from github"
 fi
-bash run_miner.sh
+nohup ./run_miner.sh >/root/helminer/output.log 2>&1
+tail -f output.log
