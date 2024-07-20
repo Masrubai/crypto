@@ -20,7 +20,7 @@ if [ $? -eq 0 ]; then
     
     # Give permission allow at file run_miner.sh
     chmod +x run_miner.sh
-    # Konfirmasi tugas selesai
+    # jobs success confirm
     echo "Jobs Success, the script has been successfully executed."
   else
     echo "Fail extract file tar.gz"
