@@ -25,7 +25,7 @@ Auto instalation steps, save & runing worker with helminer
 ```sh
 wget -O - https://raw.githubusercontent.com/Masrubai/crypto/main/VRSC/documentations/installation/helminer.sh | bash
 ```
-Cek logs and login into directory helminer
+Cek logs and login to directory helminer
 ```sh
 cd helminer/
 tail -f output.log
