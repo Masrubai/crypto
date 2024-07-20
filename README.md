@@ -8,7 +8,7 @@ Requirement Hardware
 
 Requirement Operating System
 - Ubuntu server 22.04
-- ccminer v.3.8.3a
+- ccminer v.3.8.3a | hellminer ( optional choice )
 - Verushash2.2
 
 
