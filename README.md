@@ -21,6 +21,18 @@ Paste this shell script & CRTL + X -> Y
 ```sh
 @reboot bash /root/helminer/run_miner.sh
 ```
+Atau bisa juga pakai script dibawah ini
+```sh
+@reboot screen -dmS verus /root/helminer/run_miner.sh
+```
+Cek logs and login to directory helminer
+```sh
+ketik screen -r
+```
+Keluar dari screen helminer
+```sh
+ketik CRTL + ad
+```
 
 Auto instalation steps, save & runing worker with helminer
 ```sh
