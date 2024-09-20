@@ -23,8 +23,8 @@ exit 0
 EOF
 
 sudo chmod +x /etc/rc.local
+cd /etc/systemd/system && touch rc-local.service && chmod +x rc-local.service
 sudo tee /etc/systemd/system/rc-local.service <<EOF
-
 [Unit]
 Description=/etc/rc.local Compatibility
 ConditionPathExists=/etc/rc.local
@@ -40,7 +40,6 @@ SysVStartPriority=99
 [Install]
 WantedBy=multi-user.target
 EOF
-exit
 
 sudo systemctl enable rc-local
 sudo systemctl start rc-local.service
