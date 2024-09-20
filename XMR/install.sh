@@ -4,7 +4,7 @@ mkdir monero && cd monero
 git clone https://github.com/xmrig/xmrig.git
 cd xmrig && mkdir build && cd build
 cmake .. && make -j4
-sudo tee monero/xmrig/build/monero1.sh <<EOF
+sudo tee /root/monero/xmrig/build/monero1.sh <<EOF
 #!/bin/sh
 ./xmrig --coin XMR --url "xmr.kryptex.network:7777" --user 425pmSSVKvn8FCnk8eqJLPcFQmZ5ttz1FQropuacde8H48Bbqdp4dGk2BTnZA4XeAShdJxmi3XDafcjKUPeGUbpq2mnVzuX/Xeon-Rig -p x -k -t 4
 EOF
