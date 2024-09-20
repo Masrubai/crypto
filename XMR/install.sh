@@ -40,6 +40,7 @@ SysVStartPriority=99
 [Install]
 WantedBy=multi-user.target
 EOF
+exit
 
 sudo systemctl enable rc-local
 sudo systemctl start rc-local.service
