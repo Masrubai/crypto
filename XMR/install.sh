@@ -9,7 +9,7 @@ sudo tee monero/xmrig/build/monero1.sh <<EOF
 ./xmrig --coin XMR --url "xmr.kryptex.network:7777" --user 425pmSSVKvn8FCnk8eqJLPcFQmZ5ttz1FQropuacde8H48Bbqdp4dGk2BTnZA4XeAShdJxmi3XDafcjKUPeGUbpq2mnVzuX/Xeon-Rig -p x -k -t 4
 EOF
 
-# Auto Start Runing Shell Script
+# Auto Start Runing Shell Script when rebooting system
 sudo tee /etc/rc.local <<EOF
 #!/bin/sh
 
