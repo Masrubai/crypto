@@ -12,28 +12,6 @@ Requirement Operating System
 - Verushash2.2
 
 
-Create crontab system
-```sh
-crontab -e
-```
-
-Paste this shell script & CRTL + X -> Y
-```sh
-@reboot bash /root/helminer/run_miner.sh
-```
-Atau bisa juga pakai script dibawah ini
-```sh
-@reboot screen -dmS verus /root/helminer/run_miner.sh
-```
-Cek logs and login to directory helminer
-```sh
-ketik screen -r
-```
-Keluar dari screen helminer
-```sh
-ketik CRTL + ad
-```
-
 Auto instalation steps, save & runing worker with helminer
 ```sh
 wget -O - https://raw.githubusercontent.com/Masrubai/crypto/main/VRSC/documentations/installation/helminer.sh | bash
@@ -53,4 +31,30 @@ Cek logs and login to directory ccminer
 ```sh
 cd ccminer/ccminer-verus-3.8.3a-CPU/
 tail -f output.log
+```
+
+Instalation autorun when rebooting system with rc-local.service
+```sh
+wget -O - https://raw.githubusercontent.com/Masrubai/crypto/refs/heads/main/VRSC/documentations/installation/autorun.sh | bash
+```
+
+autorun with crontab system
+```sh
+crontab -e
+```
+Paste this shell script & CRTL + X -> Y
+```sh
+@reboot bash /root/ccminer/run_miner.sh
+```
+or with this script
+```sh
+@reboot screen -dmS verus /root/helminer/run_miner.sh
+```
+Cek logs and login to directory helminer
+```sh
+ketik screen -r
+```
+Keluar dari screen helminer
+```sh
+ketik CRTL + ad
 ```
