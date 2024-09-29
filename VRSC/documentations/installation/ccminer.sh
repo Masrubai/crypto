@@ -3,7 +3,7 @@
 # dependency install software
 
 sudo apt update
-sudo apt install git libjansson4=2.12-1build1 libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential -y
+sudo apt install git libjansson4=2.12-1build1 libcurl4=7.68.0-1ubuntu2.24 libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential -y
 
 # create helminer & login into helminer directory
 mkdir ccminer && cd ccminer
