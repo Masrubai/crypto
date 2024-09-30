@@ -1,4 +1,7 @@
 #!/bin/sh
+## update code for Armbian - ubuntu linux
+## version 21.04 hirsute
+
 sudo apt-get dist-upgrade --yes
 cd /etc/apt
 mv sources.list sources.list.old
