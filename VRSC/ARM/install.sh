@@ -1,3 +1,16 @@
+#!/bin/sh
+sudo apt-get dist-upgrade
+cd /etc/apt
+mv sources.list sources.list.old
+
+sudo tee /etc/apt/sources.list <<EOF
+deb http://old-releases.ubuntu.com/ubuntu/ hirsute main restricted universe multiverse
+deb http://old-releases.ubuntu.com/ubuntu/ hirsute-updates main restricted universe multiverse
+deb http://old-releases.ubuntu.com/ubuntu/ hirsute-backports main restricted universe multiverse
+deb http://old-releases.ubuntu.com/ubuntu/ hirsute-security main restricted universe multiverse
+EOF
+
+sudo apt update
 sudo apt install git -y libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential -y
 git clone --single-branch -b ARM https://github.com/monkins1010/ccminer.git
 cd ccminer
