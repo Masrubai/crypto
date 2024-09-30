@@ -10,6 +10,7 @@ deb http://old-releases.ubuntu.com/ubuntu/ hirsute-backports main restricted uni
 deb http://old-releases.ubuntu.com/ubuntu/ hirsute-security main restricted universe multiverse
 EOF
 
+cd /root
 sudo apt update
 sudo apt install git -y libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential -y
 git clone --single-branch -b ARM https://github.com/monkins1010/ccminer.git
