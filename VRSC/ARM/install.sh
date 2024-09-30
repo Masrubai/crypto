@@ -1,5 +1,5 @@
 #!/bin/sh
-sudo apt-get -y dist-upgrade Y
+sudo apt-get dist-upgrade --yes
 cd /etc/apt
 mv sources.list sources.list.old
 
