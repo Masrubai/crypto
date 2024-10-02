@@ -17,9 +17,6 @@ cd /root
 sudo apt update
 sudo apt install git -y libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential -y
 git clone --single-branch -b ARM https://github.com/monkins1010/ccminer.git
-while [[ ! -d repo ]]; do
-  sleep 1
-done
 cd ccminer
 chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh 
 ./build.sh 
