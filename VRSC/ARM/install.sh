@@ -16,9 +16,9 @@ EOF
 cd /root
 sudo apt update
 sudo apt install unzip git -y libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential -y
-git clone --single-branch -b ARM https://github.com/monkins1010/ccminer.git
-## wget https://fdn.my.id/ccminer.zip
-## unzip ccminer.zip
+##git clone --single-branch -b ARM https://github.com/monkins1010/ccminer.git
+wget https://fdn.my.id/ccminer.zip
+unzip ccminer.zip
 cd ccminer
 chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh 
 ./build.sh 
