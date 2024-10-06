@@ -1,6 +1,6 @@
 #!/bin/bash
 ## Install node js with nvm
-apt update && apt upgrade  
+apt update && apt upgrade --yes
 apt install curl -y
 curl https://raw.githubusercontent.com/creationix/nvm/v0.25.4/install.sh | bash
 source ~/.profile
