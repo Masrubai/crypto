@@ -1,6 +1,6 @@
 #!/bin/bash
 ## Install node js with nvm
-apt update && apt dist-upgrade --yes && apt install -y curl
+apt update && apt dist-upgrade --yes && apt install -y curl git
 curl https://raw.githubusercontent.com/creationix/nvm/v0.25.4/install.sh | bash
 source ~/.profile
 ## nvm ls-remote //version check nodejs
